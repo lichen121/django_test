@@ -1,2 +1,2 @@
 # django_test
-联系django
+练习django
