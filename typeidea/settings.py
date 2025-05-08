@@ -36,6 +36,11 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # 新增内容
+    'blog.apps.BlogConfig',
+    'config.apps.ConfigConfig',
+    'comment.apps.CommentConfig',
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
